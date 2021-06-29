@@ -1,0 +1,9 @@
+function num(numero)
+{
+  for(var i = 1; i <= 10; ++i)
+  {
+    console.log(numero, "x", i, " = ", i * numero)
+    
+  }
+}
+num(30)
